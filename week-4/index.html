@@ -4,20 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <title>Reggie's Coffee Shop - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 </head>
 
 <body>
   <!-- Add the proper page structure for this document -->
   <!-- Shortcut for comment block - control + / or Command + / -->
   <!-- Header of the site -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="index.html" class="navbar-item">
+          Home
+        </a>
+  
+        <a href="contact.html" class="navbar-item">
+          Contact
+        </a>
+        <a href="#tow" class="navbar-item">
+          Treat of the day
+        </a>
+          </div>
+        </div>
+      </div>     
+  </nav>
   <header>
-    <h1>Reggie's Coffee Shop</h1>
-    <nav>Navigation</nav>
+    <h1 style="text-align: center; font-size: 30px;">Reggie's Coffee Shop</h1>
+    <!--<nav>
+      <ul>
+        <li>
+<a href="index.html">Home</a>
+      </li>
+    <li>
+<a href="contact.html" style="vertical-align: auto;">Contact</a>
+    </li>
+  </ul>
+    </nav>
   </header>
-  <!-- main content of the site -->
+   main content of the site -->
+
   <main>
     <article>
-      <h2>Our Story</h2>
+      <h2 >Our Story</h2>
       <!-- adding image -->
       <img src="images/coffee-shop.jpg" alt="coffee cup on top of pile of coffee beans">
       <blockquote>
@@ -54,7 +91,7 @@
       </ol>
     </section>
     <!-- Adding section for the description list -->
-    <section>
+    <section id="tow">
       <h3>Treat of the Week</h3>
       <dl>
         <dt>Name</dt>
@@ -66,7 +103,30 @@
         <dt>Ingredients</dt>
         <dd>all purpose flour, baking soda, baking powder, salt, butter, sugar, eggs, bananas, lemon juice</dd>
       </dl>
-    </section>
+       <a href="https://www.yummly.com/recipe/Banana-Bread-1033797?prm-v1" target="_blank">Get the recipe</a>
+    
+    <!--Making the tables-->
+    <table border>
+      <thead>
+        <tr>
+          <th colspan="2">Items</th>
+          <th rowspan="2">Price</th>
+        </tr>
+          <tr>
+            <th>Name</th>
+            <th>Calories</th>
+          </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <td>Banana Bread</td>
+          <td>250</td>
+          <td>$dollar;6</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
   </main>
   <!-- footer of the site -->
   <footer>
