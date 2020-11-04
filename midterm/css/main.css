@@ -77,11 +77,11 @@ form{
     margin-right: 5px;
 }
 
-textarea{
-    width: 100%;
+input[type="text"],textarea{
+    width: 271%;
+    margin: 5px;
 }
 
 footer{
-    align-items: right;
-     
+    text-align: right;
 }
