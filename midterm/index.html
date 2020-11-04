@@ -8,7 +8,7 @@
 </head>
 <body>
    <div id="div">
-    
+    <div id="home">
     <main>
         <img id="img-wide" src="images/lone-starfish-wide.jpg" alt="">
         <h1 id="Lone-star">
@@ -16,12 +16,21 @@
         </h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Story</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#home">
+                    Home
+                </a></li>
+                <li>
+                    <a href="#story">
+                    Story</a></li>
+                <li>
+                    <a href="#contact">
+                    Contact</a></li>
             </ul>
         </nav>
-        <div id="div2">
+    </div>
+    <div id="div2">
+        <div id="story">
         <h1>Life of a starfish</h1>
         <p>
             <img id="img" src="images/lone-starfish.jpg" alt="">
@@ -38,8 +47,9 @@
             <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ol>
-        <br>
-        <br>
+        
+        </div>
+        <div id="contact">
         <h2>Contact to learn more</h2>
         <div id="form-box">        
         <form action="index.html" method="POST">
@@ -67,13 +77,15 @@
             <label for="Yes"> Maybe</label>
             <input type="checkbox">
         </div>
+        <button type="button">SEND</button>
+        <br>
         </form>
     </div>
+</div>
     </main>
     <footer>
         &#169 Lone Starfish
     </footer>
-
     <br>
   </div>
 </body>
