@@ -1,0 +1,450 @@
+/*
+#c78c06, #ffe6ac, #222 and white
+*/
+
+/*---------- CSS RESET ----------*/
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 15px;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+/*----- HEADINGS -----*/
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    margin:20px 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    line-height: 60px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*----- PARAGRAPH -----*/
+p{
+    font-size: 11px;
+}
+
+/*---------- Header Section ----------*/
+
+header{
+    background-color: #222;
+}
+header .logo{
+    display: block;
+    padding: 10px 0 10px 0;
+    background-color: #c78c06;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+}
+header nav ul{
+    text-align: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    font-weight: 400;
+    display: block;
+    color: #c78c06;
+    text-decoration: none;
+    padding: 10px 0;
+}
+/* Navigation Link Active or Hover */
+header nav ul li .active,header nav ul li a:hover{
+    color: #222;
+    background-color: #c78c06;
+}
+header nav ul li input{
+    font-weight: 500;
+    width: 80%;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 1px solid #c78c06;
+    margin: 5px 0 5px 5px;
+}
+header nav ul li button{
+    padding: 5px;
+    color: #c78c06;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    border-radius: 2px;
+}
+
+/*---------- Hero Section ----------*/
+.first{
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+.firstC{
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 10px 20px;
+    color: white;
+}
+.firstC p{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.firstC a.ctabtn{
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    background-color: #c78c06;
+    padding: 20px 20px;
+}
+/*Hover State*/
+.firstC a.ctabtn:hover{
+    color:#c78c06;
+    background-color: #222;
+}
+
+.firstC .im-play{
+    margin-left: 10px;
+}
+
+
+/*---------- About Us Section ----------*/
+section.about-us{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.about-us_img img{
+    width: 100%;
+}
+.about-us_text p{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/*---------- Services Section ----------*/
+.services{
+    padding: 10px;
+}
+.service-card{
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+.service-card_img{
+    width: 100%;
+    height: auto;
+}
+.service-card_img img{
+    width: 100%;
+}
+.service-card_info{
+    margin: 10px;
+}
+.service-card_info p{
+    font-size: 11px;
+}
+.service-card_info .service-card_info-name{
+    margin: 20px 0 10px 0;
+}
+.service-card_link{
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+}
+.service-card_link a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    padding: 20px;
+}
+a .im-play{
+    font-size: 15px;
+}
+
+/*---------- Our Vision Section ----------*/
+.vision{
+    color: white;
+    background-image: url('../images/vision.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:10px;
+}
+.vision-heading{
+    margin: 10px 0 15px 0;
+}
+.vision p{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.vision a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #c78c06;
+    padding: 20px;
+}
+/*---------- Teams Section ----------*/
+.team{
+    padding: 10px;
+}
+.team-member{
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+.team-member_img img{
+    width: 100%;
+    height: auto;
+}
+.team-member_info{
+    padding: 10px;
+}
+.team-member_info .team-member_info-designation{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid #c78c06;
+}
+.team-member_info p{
+    display: block;
+    margin: 10px 0 10px 0;
+}
+/*---------- Contact US Section ----------*/
+.contact-us{
+    padding: 0 10px;
+}
+
+.message-heading{
+    margin-bottom: 10px;
+}
+.message form .form-group{
+    display: block;
+    margin-bottom: 10px;
+}
+.message form .form-group label{
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.message form .form-group input{
+    display: block;
+    width: 100%;
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+.message form .form-group textarea{
+    width: 100%;
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+.message form .form-group button{
+    padding: 5px;
+    background-color: #222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+}
+.hours{
+    margin-bottom: 20px;
+}
+.hours-heading{
+    margin-bottom: 10px;
+}
+.hours table, .hours table td, .hours table th{
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+.hours table{
+    width: 100%;
+}
+.hours table tr th, .hours table tr td{
+    padding: 5px;
+    font-size: 11px;
+}
+.hours table tr th{
+    background-color: #ffe6ac;
+}
+.location{
+    margin-bottom: 20px;
+}
+.location-heading{
+    margin-bottom: 10px;
+}
+.location iframe{
+    width: 100%;
+    height: 350px;
+}
+
+/*---------- Footer ----------*/
+footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 20px 10px;
+}
+footer p:nth-child(1){
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 760px){
+    /*----- Universal -----*/
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /*----- Header Section -----*/
+    header{
+        padding: 10px;
+    }
+    
+    header .logo{
+        background-color: transparent;
+        display: inline;
+    }
+    .logo img{
+        height: 60px;
+    }
+    header nav{
+        float: right;
+        margin: auto 0;
+    }
+    header nav ul{
+        margin: 10px 0;
+    }
+    header nav ul li{
+        display: inline;
+    }
+    header nav ul li a{
+        padding: 10px;
+        display: inline-block;
+    }
+    header nav ul li input{
+        width: 200px;
+    }
+
+    /*----- Hero Section -----*/
+    .hero-area{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    /*----- About Us Section -----*/
+    .about-us{
+        padding: 10px 0;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-us_img{
+        display: inline-block;
+        overflow: hidden;
+    }
+    .about-us_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .about-us_text{
+        padding:10px;
+        display: inline;
+    }
+
+    /*----- Services Section -----*/
+    .services-grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-gap: 10px;
+    }
+    .service-card{
+        margin:0;
+    }
+    .services-grid_item1{
+        grid-row: 1/2;
+        grid-column: 1 / 4;
+    }
+    .services-grid_item2{
+        grid-column: 4 / 7;
+    }
+    .services-grid_item3{
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+    .services-grid_item4{
+        grid-row: 2/3;
+        grid-column: 3/5;
+    }
+    .services-grid_item5{
+        grid-row: 2/3;
+        grid-column: 5/7;
+    }
+
+    /*----- Our Vision Section -----*/
+    .vision{
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*----- Teams Section -----*/
+    .team-member{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+    }
+    .team-member_img img{
+        height: 100%;
+    }
+    .team-member_info{
+        padding: 10px;
+    }
+    .team-member-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "b a";
+    }
+    .team-member-2_img{
+        display: inline-block;
+        grid-area: a;
+    }
+    .team-member-2_info{
+        grid-area: b;
+    }
+    /*----- Contact Us -----*/
+    .contact-us .contact-grid{
+        display: grid;
+        grid-gap: 20px;
+    }
+    .contact-us .message{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .contact-us .location{
+        grid-row: 1;
+    }
+    .contact-us .hours{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    /*----- Footer -----*/
+    footer{
+        padding: 20px 0;
+    }
+}
