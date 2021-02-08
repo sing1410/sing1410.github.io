@@ -1,3 +1,4 @@
+/*--------------------------  CSS Reset  --------------------------*/
 *
 {
     margin: 0;
@@ -5,9 +6,19 @@
     list-style: none;
 }
 
+/*--------------------------  Body  --------------------------*/
+
 body{
     overflow-x: hidden;
     font-family: Montserrat;
+}
+
+/*--------------------------  Header  --------------------------*/
+
+
+header
+{
+    padding: 10px 100px;    
 }
 .container
 {
@@ -15,23 +26,22 @@ body{
     margin: 0 auto;
 }
 
-header{
-    padding: 10px 100px;
-    min-height: 80vh;
-}
-
 .nav-logo{
     width: 115px;
     height: auto;
 }
 
+/*--------------------------  Center-part(Left)  --------------------------*/
 
 .cta{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-
+    background: url(../images/bg-image/scooter.svg);
+    background-repeat: no-repeat;
+    background-size: 42.5%;
+    background-position: center;
     padding: 50px 0;
 }
 .cta-left{
@@ -46,26 +56,166 @@ header{
     margin-top: 20px;
 }
 
-.cta-right{
-    max-width: 536px;
-    border: solid black 2px;
+/*--------------------------  Center-part(Right)  --------------------------*/
 
+.cta-right
+{    
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 2.6rem;
 }
-.cta-right h2{
-    font-size: 40px;
+
+/*-------------------------- Form  --------------------------*/
+
+.cta-right h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
-.form-right{
+
+.cta-right-p
+{
+    font-size: 20px;
+    font-stretch: wider;
+    margin-top: -10px;
+}
+
+.form-right
+{
     padding: 20px 20px 20px 20px;
 }
-.cta-right h2 p{
-    margin-top: 1                                         5px;
+
+.Fname, .Lname, .Email, .Num
+{
+    margin-top: 10px;
+    background-color: #f4f4f5;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 10px;    
+    font-size: 20px;
+    color: #9b9b9b;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
 }
+
+.Mcheckbox
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.checkbox
+{
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    border-color: #333131;
+    vertical-align: middle; 
+    position: relative; 
+    bottom: 3px;
+    margin-right: 5px;
+}
+
+.checkbox-text{
+    font-size: 20px;
+    color: #333131;
+}
+
+.submit-button
+{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #57EEAB;
+    margin-bottom: 10px;
+    cursor: pointer;
+        
+}
+
+.agree
+{
+    margin-bottom: 10px;
+    font-size: small;
+    text-align: center;
+    color: #333131;
+}
+
+.status
+{
+    color: #FF8480;
+}    
+
+/*--------------------------  Footer  --------------------------*/
 
 .footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
     padding: 50px 100px;
+    background-color: #FFFD8C;
 }
+
+.footer-left h3{
+    margin-bottom: 10px;
+
+}
+
+.footer-left p{
+    margin-bottom: 10px;
+}
+
+.Hours, .City{
+
+
+font-size: 15px;
+
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 13px;
+    background-color: #f7f7ff;
+    color: #707070;
+}
+
+.Hours{
+    width: 90px;
+}
+
+.City{
+    width: 255px;
+}
+
+.Calbutton{
+    flex-grow: 1;
+    
+    background-color: #FF8480;
+    color:#f7f7ff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 13px;
+    
+}
+
+.Smedia
+{
+    width: 35px;
+    height: 35px;
+    margin-right: 40px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
