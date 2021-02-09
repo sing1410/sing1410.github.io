@@ -18,7 +18,10 @@ body{
 
 header
 {
-    padding: 10px 100px;    
+    padding: 10px 100px;   
+    background-color: #f7f7ff;
+    min-height: 90vh;
+    color: #333131;
 }
 .container
 {
@@ -59,11 +62,16 @@ header
 /*--------------------------  Center-part(Right)  --------------------------*/
 
 .cta-right
-{    
+{
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 2.6rem;
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    min-width: 535px;
 }
 
 /*-------------------------- Form  --------------------------*/
@@ -78,27 +86,31 @@ header
 .cta-right-p
 {
     font-size: 20px;
-    font-stretch: wider;
     margin-top: -10px;
 }
 
 .form-right
 {
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
-
 .Fname, .Lname, .Email, .Num
 {
+    color: #9B9B9B;
     margin-top: 10px;
     background-color: #f4f4f5;
     margin-bottom: 10px;
-    width: 100%;
-    padding: 10px 10px;    
-    font-size: 20px;
+    width: 90%;
+    padding: 17px 15px;
+    font-size: 18px;
     color: #9b9b9b;
     letter-spacing: 1px;
     outline: none;
     border: none;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
 }
 
 .Mcheckbox
@@ -120,7 +132,7 @@ header
 }
 
 .checkbox-text{
-    font-size: 20px;
+    font-size: 18px;
     color: #333131;
 }
 
@@ -137,7 +149,7 @@ header
     background-color: #57EEAB;
     margin-bottom: 10px;
     cursor: pointer;
-        
+    color:#333131;
 }
 
 .agree
@@ -151,9 +163,15 @@ header
 .status
 {
     color: #FF8480;
+    text-decoration: none;
 }    
 
 /*--------------------------  Footer  --------------------------*/
+
+footer{
+    background-color: #FFFD8C;
+    color: #333131;
+}
 
 .footer{
     display: flex;
@@ -161,7 +179,6 @@ header
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px 100px;
-    background-color: #FFFD8C;
 }
 
 .footer-left h3{
@@ -203,7 +220,7 @@ font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 6px 15px;
     border: none;
     border-radius: 13px;
     
@@ -219,3 +236,95 @@ font-size: 15px;
 }
 
 
+/*--------------------------  Media queries  --------------------------*/
+
+
+@media screen and (max-width: 1311px){
+    .cta-left, .cta-right{
+        display: block;
+        width: 100%;
+    }
+    .cta-left{
+        margin-bottom: 316px;
+    }
+    .cta.container{
+        background-size: 50%;
+        background-position: center 39%;
+    }
+    .footer{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    header{
+        padding: 0 38px;
+    }
+    .cta.container{
+        background-size: 70%;
+        background-position: center 35%;
+    }
+    .cta-left h1{
+        font-size: 60px;
+    }
+    
+    
+    
+    .cta-right{
+        min-width: auto;
+    }
+    .cta-right h2{
+        font-size: 40px;
+    }
+    .cta-right-p{
+        font-size: 16px;
+    }
+
+    .form-right{
+        padding: 0;
+    }
+    .Fname, .Lname, .Email, .Num{
+        padding: 10px 11px;
+        font-size: 16px;
+    }
+    .checkbox-text{
+        font-size: 16px;
+    }
+    .submit-button{
+        font-size: 24px;
+    }
+    .agree{
+        text-align: left;
+    }
+
+    .footer{
+        padding: 37px;
+    }
+
+    .Hours{
+        width: 17%;
+    }
+    .City{
+        width: 60%;
+        margin: 0;
+    }
+    .Calbutton{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+
+    .footer-right{
+        margin-top: 30px;
+    }
+    .Smedia{
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .cta.container{
+        background-size: 100%;
+        background-position: center 40%;
+    }
+}
