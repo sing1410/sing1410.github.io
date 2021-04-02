@@ -11,6 +11,7 @@
     <title>Bootstrap this!</title>
   </head>
   <body style="background-color: #2d3035;"">
+    <!--------------------------------------------------Navbar Starts-------------------------------------------------------------------------------->
     <nav class="navbar text-white" class="">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -20,45 +21,51 @@
         </div>
       </nav>
 <br><br>
-      <div class="container flex-wrap">
+<!--------------------------------------------------Navbar Ends-------------------------------------------------------------------------------->
+<!--------------------------------------------------Cards Starts-------------------------------------------------------------------------------->
+      <div class="container text-center">
           <h3 class="text-white">Key features</h3>
-          <div class="container">
-          <div class="row">
-            <div class="col-4">
+          <div class="container justify-content-center">
+          <div class="row justify-content-center">
+<!--------------------------------------------------Card 1-------------------------------------------------------------------------------->            
+            <div class="col-lg-4 col-12 text-center justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <img src="Images/ilya-pavlov-wbXdGS_D17U-unsplash.jpg" class="card-img-top" alt="..." height="200">
                     <div class="card-body">
                       <h5 class="card-title">Easy to use</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">Bootstrap is ver easy to use as you can get almost everything in just simple clicks.</p>
+                      <a href="https://getbootstrap.com/" class="btn btn-secondary">More</a>
                     </div>
                   </div>
         </div>
-        <div class="col-4">
+<!--------------------------------------------------Card 2-------------------------------------------------------------------------------->        
+        <div class="col-lg-4 col-12">
             <div class="card" style="width: 18rem;">
                 <img src="Images/aron-visuals-BXOXnQ26B7o-unsplash.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Time-Saving</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">If you are in a hurry and a complete website then Bootstrap is the best solution for you.</p>
+                  <a href="https://getbootstrap.com/" class="btn btn-secondary">More</a>
                 </div>
               </div>
         </div>
-        <div class="col-4">
+<!--------------------------------------------------Card 3-------------------------------------------------------------------------------->        
+        <div class="col-lg-4 col-12">
             <div class="card" style="width: 18rem;">
                 <img src="Images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Responsive</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">In Bootstrap all classes are pre-build and so are responsive which makes it the best.</p>
+                  <a href="https://getbootstrap.com/" class="btn btn-secondary">More</a>
                 </div>
               </div>
         </div>
           </div>
         </div>
-
       </div>
       <br><br>
+<!--------------------------------------------------Card Ends-------------------------------------------------------------------------------->
+<!--------------------------------------------------Slideshow Starts-------------------------------------------------------------------------------->      
       <h2 class="text-center text-white">Top websites that use Bootstrap</h2>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -83,11 +90,15 @@
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Next</span>x  
         </button>
       </div>
       <br><br>
+<!--------------------------------------------------Slideshow Ends-------------------------------------------------------------------------------->
+<!--------------------------------------------------Content Starts-------------------------------------------------------------------------------->      
       <div class="container-fluid p-3 mb-2 bg-dark text-white">
+<!--------------------------------------------------About Bootstrap Starts-------------------------------------------------------------------------------->        
+      <div class="container-fluid">
       <h2>About Bootstrap</h2>
       <div class="row">
           
@@ -95,37 +106,49 @@
           <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
           </p>
           </div>
-          <div class="col-6"><h3>Mobile-first</h3>
+          <div class="col-12 col-md-6"><h3>Mobile-first</h3>
           <p>Bootstrap includes a powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.
           </p>
         </div>
-          <div class="col-6"><h3>Components Library</h3>
+          <div class="col-12 col-md-6"><h3>Components Library</h3>
           <p>Bootstrap comes with an extensive components library that includes buttons and lists to carousels and modals. Components are easy to integrate into any site and require no knowledge of JavaScript to use.</p>
         </div>
-        
-
       </div>
     </div>
     <br><br>
-    <div class="container-fluid p-3 mb-2 bg-dark text-white">
+<!--------------------------------------------------About Bootstrap Ends-------------------------------------------------------------------------------->
+<!--------------------------------------------------Component Starts-------------------------------------------------------------------------------->    
+    <div class="container-fluid">
       <h2>Components</h2>
       <div class="row">
           
-          <div class="col-4"><h3>Navbar</h3>
+          <div class="col-12 col-sm-4"><h3>Navbar</h3>
           <p>Provides the full customizable navbar for the website with complete adjustable navigation.
           </p>
           </div>
-          <div class="col-4"><h3>Carousel</h3>
+          <div class="col-12 col-sm-4 "><h3>Carousel</h3>
           <p>Bootstrap includes a powerful responsive carousel which allows us to make slideshows of images and of different contents.
           </p>
         </div>
-          <div class="col-4"><h3>Spinners</h3>
+          <div class="col-12 col-sm-4"><h3>Spinners</h3>
           <p>Bootstrap have it's own loading screen content which includes spinners of different colors and animation which provides beauty to the website.</p>
         </div>
         
 
       </div>
     </div>
+  </div>
+<!--------------------------------------------------Components Ends-------------------------------------------------------------------------------->  
+<!--------------------------------------------------Content Ends-------------------------------------------------------------------------------->  
+<!--------------------------------------------------Footer Starts-------------------------------------------------------------------------------->    
+<footer>
+      <div class="container-fluid p-3 mb-2 bg-secondary text-white">
+        <h2 class="text-center" style="color: #2d3035;">Mandeep Singh</h2>
+        <p class="text-end">© Bootstrap</p>
+
+      </div>
+    </footer>
+<!--------------------------------------------------Footer Ends-------------------------------------------------------------------------------->    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
