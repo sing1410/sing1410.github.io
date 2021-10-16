@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #101820;
+}
+html{
+    background-color: #101820;
+}
+nav{
+    background-color: #101820;
+}
+.main{
+    
+    background-color: #422057;
+    color: white;
+    
+    
+}
+
+.Myimg{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.projects{
+    background-color: #101820;
+}

@@ -30,7 +30,7 @@ header
 }
 
 .nav-logo{
-    width: 115px;
+    width: 200px;
     height: auto;
 }
 
@@ -41,10 +41,6 @@ header
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    background: url(../images/bg-image/scooter.svg);
-    background-repeat: no-repeat;
-    background-size: 42.5%;
-    background-position: center;
     padding: 50px 0;
 }
 .cta-left{
@@ -54,9 +50,10 @@ header
 .cta-left h1{
     font-size: 80px;
 }
-.cta-left p{
+.cta-left ul{
     font-size: 24px;
     margin-top: 20px;
+    line-height: 2rem;
 }
 
 /*--------------------------  Center-part(Right)  --------------------------*/
@@ -146,7 +143,7 @@ header
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
-    background-color: #57EEAB;
+    background-color: #91cfec;
     margin-bottom: 10px;
     cursor: pointer;
     color:#333131;
@@ -160,12 +157,11 @@ header
     color: #333131;
 }
 
-.status
+.signin
 {
     color: #FF8480;
     text-decoration: none;
 }    
-
 /*--------------------------  Footer  --------------------------*/
 
 footer{
